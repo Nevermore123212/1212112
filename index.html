@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			body {
+				margin: 0px;
+			}
+			
+			.head input.H_bt {
+				position: relative;
+				width: 100px;
+				height: 42px;
+				background: #ADFF2F;
+				margin-left: -8px;
+				border: 0px;
+				top: -60px;
+			}
+			
+			.head input.H_txt {
+				position: relative;
+				width: 300px;
+				height: 30px;
+				border: 5px solid greenyellow;
+				top: -60px;
+			}
+			
+			.head img {
+				position: relative;
+				left: 80px;
+				top: 10px;
+			}
+			
+			.header {
+				background: #f0f0f0;
+				width: 100%;
+				height: 25px;
+			}
+			
+			.header span {
+				position: relative;
+				font-size: 9px;
+				left: 100px;
+			}
+			
+			.List {
+				position: relative;
+				width: 100%;
+				height: 50px;
+				background: black;
+				margin-top: -10px;
+				text-align: center;
+			}
+			
+			.List span {
+				position: relative;
+				display: block;
+				color: white;
+				font-size: 20px;
+				line-height: 50px;
+				left: 180px;
+				width:150px;
+				height: 50px;
+				text-align: center;
+				float: left;
+			}
+			
+			.List span:hover {
+				background-color: greenyellow;
+			}
+			
+			.culture {
+				position: relative;
+				width: 80%;
+				height: 600px;
+				left: 110px;
+				float: left;
+			}
+			
+			.culture .C_left {
+				position: relative;
+				width: 40%;
+				
+				float: left;
+			}
+			
+			.culture .C_right {
+				position: relative;
+				width: 600px;
+				margin-left: 30px;
+				float: left;
+				left: 400px;
+				top: -518px;
+				/*border: 1px solid green;*/
+			}
+			
+			.C_R_pictuer {
+				position: relative;
+				width: 35%;
+				height: 140px;
+				float: left;				
+			}
+			
+			.C_R_word {
+				position: relative;
+				width: 63%;
+				height: 140px;
+				float: left;
+				margin-left: 5px;
+				border-bottom: 3px solid greenyellow;
+			}
+			.C_R_pictuer2{
+				position: relative;
+				width: 35%;
+				height: 140px;
+				float: left;
+				margin-top: 40px;
+				margin-left: 5px;
+			}
+			.C_R_word2s{
+				position: relative;
+				width: 63%;
+				height: 140px;
+				float: left;			
+				border-bottom: 3px solid greenyellow;
+				margin-top: 40px;
+			}
+			.C_R_word3 {
+				position: relative;
+				width: 65%;
+				height: 140px;
+				float: left;
+				margin-left: 5px;
+				border-bottom: 3px solid greenyellow;
+				top: -140px;
+				left: 35%;
+			}
+			.C_R_pictuer3 {
+				position: relative;
+				margin-left: 0px;
+				width: 35%;
+				height: 150px;
+				float: left;
+				margin-top: 40px;	
+				right: 63%;		
+			}
+			.charm {
+				position: relative;
+/*				border: 1px solid black;*/
+				width: 80%;
+				height: 450px;
+				left: 110px;
+				float: left;
+			}
+			.CH_left{
+				position: relative;
+				float: left;
+				width: 40%;
+				height: 350px;
+/*				border: 1px solid black;*/
+				top: 20px;
+			}	
+			.CH_middle{
+				position: relative;
+				float: left;
+				width: 25%;
+				height: 350px;
+				left: 20px;
+/*				border: 1px solid black;*/
+				top: 20px;
+			}	
+			.CH_right{
+				position: relative;
+				float: left;
+				width: 30%;
+				height: 350px;
+				left: 30px;
+/*				border: 1px solid black;*/
+				top: 20px;
+			}	
+			.CH_right p{
+				line-height: 25px; 
+				font-size: 14px;
+				top: 15px;
+			}	
+			.food {
+				position: relative;
+/*				border: 1px solid black;*/
+				width: 80%;
+				height: 480px;
+				left: 110px;
+				float: left;
+			}
+			.spirit{
+				position: relative;
+/*				border: 1px solid black;*/
+				width: 80%;
+				height: 450px;
+				left: 110px;
+				top: 0px;
+				float: left;
+			}	
+			.SP_left{
+				position: relative;
+				float: left;
+				width: 35%;
+				height: 350px;
+/*				border: 1px solid black;*/
+				top: 20px;
+			}
+			.SP_middle{
+				position: relative;
+				float: left;
+				width: 25%;
+				height: 350px;
+				left: 20px;
+/*				border: 1px solid black;*/
+				top: 20px;
+			}	
+			.SP_right{
+				position: relative;
+				float: left;
+				width: 35%;
+				height: 350px;
+				left: 30px;
+/*				border: 4px solid red;*/
+				top: 20px;
+			}	
+			.tail{
+				position: relative;
+				float: left;
+				width: 100%;
+				height: 230px;	
+				background-color: #AAABBB;			
+				
+			}	
+			.T_left{
+				position: relative;
+				float: left;
+				width: 30%;
+				height: 100%;
+			}
+			.T_right{
+				position: relative;
+				float: left;				
+				top: 80px;
+			}
+			.T_right a{
+				color: white;
+			}
+			.T_right p{
+				color: white;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--最上面头部信息-->
+		<div class="header">
+					
+				<marquee direction="left" behavior=scroll hspace="1" scrollamount=6>
+		        <span >欢迎来到我的世界</span>
+						    </marquee>
+			
+		</div>
+		
+		<div class="head">
+			<img src="a1.png" style="width: 60%; height: 200px;">
+			<div class="H_d1" align="center">
+				<audio src="3636.mp3" autoplay="autoplay"></audio>
+			</div>
+		</div>
+		<!--导航栏-->
+		<div class="List">
+			<span>
+				首页
+			</span>
+			<span>
+				</span>
+			<span>
+				学校
+			</span><span>
+				</span>
+			<span>
+				家乡
+			</span><span>
+				</span>
+			<span>
+				理想
+			</span>
+		</div>
+		<!--巴渝文化-->
+		<div class="culture">
+			<h3>首页</h3>
+			<div class="C_left">
+				<img src="jiefang.jpeg" style="width: 100%; height: 250px;" />
+				<p style="margin-top: 2px; font-size: 14px; line-height: 25px;">
+					&nbsp;&nbsp;重庆市位于中国西南部，长江上游。其曾是战时陪都，1997年成为了中国四大直辖市之一。重庆四面环山，依山而建，又因地处盆地边缘，两江汇合处，常年雾气朦胧，故而又有“山城”与“雾都”之称。当然我就是重庆崽，老子叫谭荐文，出生于云阳，云阳就是那个重庆的云阳，白云的云，太阳的阳，是不是很简单，但是现实不是那么简单哦，想了解更多，请看家乡的简介。我是一名标准的90后，是一名为了理想为了生活奋斗的90后。我爱好打。。。。。。当然是打篮球和打游戏噻。
+				</p>
+			</div>
+			<div class="C_right">
+				<!--右上-->
+				<div class="C_R_pictuer">
+					<img src="m5.jpg" style="width: 100%; height: 140px;" style="float: left;" />
+				</div>
+				<div class="C_R_word">
+					<p style="float: left; line-height: 25px; margin-top: 0px; font-size: 14px;">
+						&nbsp;&nbsp;生命在于运动，那么经常运动的好处有哪些呢？运动渗透在生命中的每一个角落、每一个细胞中，血液在不停地流转着，大脑也无时不刻不在运转，即使是在睡觉的时候，我们的眼球都在做运动，这就是生命的运动意义。运动的好处就在于让我们的身体保持在健康的状态。<br />
+						
+					</p>
+				</div>
+				<!--右下-->
+				<div class="C_R_word2s">
+					<p style="float: left; line-height: 25px; margin-top: 0px; font-size: 14px;">
+						&nbsp;&nbsp;&nbsp;&nbsp;默默的在背后望着你的背影，当你有危险时我会毫不犹豫的从天而降。哪怕双腿震得生疼，我依然会咬紧牙关再次跳向对手，抛出手中的战矛。哪怕是死，我也要保护你的安全。<br>&nbsp;&nbsp;&nbsp;&nbsp;随时接受挑战，不服来战，专治不服
+					</p>
+				</div>
+				<div class="C_R_pictuer2">
+					<img src="m4.png" style="width: 100%; height: 150px;" style="float: left;" />
+				</div>
+				<div class="C_R_pictuer3">
+					<img src="m7.jpg" style="width: 100%; height: 140px;" style="float: left;" />
+				</div>				           			
+				<div class="C_R_word3">
+					<p style="float: left; line-height: 25px; margin-top: 0px; font-size: 14px;margin-top: -10px;">
+						&nbsp;&nbsp;&nbsp;&nbsp;人的眼睛是由黑、白两部分所组成的，可是神为什么要让人只能通过黑的部分去看东西？ 因为人生必须透过黑暗，才能看到光明。<br>&nbsp;&nbsp;&nbsp;&nbsp;找准属于自己的道路， 踏踏实实干适合自己的事， 充分发挥自己的优势， 无论别人如何对你， 都不要看轻自己。
+					</p>				
+				</div>	
+			</div>
+		</div>
+        <!--魅力风景-->
+        <div class="charm">
+        	<h3>学校</h3>
+        	<a style="direction: down;float: left; color: greenyellow; font-weight: bold;">重庆交通大学</a>
+        	<a style=" margin-left: 90%; display: block; float: left; color: greenyellow; font-weight: bold;">更多>></a>
+        	<div class="CH_left">
+        		<img src="m-hongya1.jpeg" style="width: 100%; height: 350px;" />       		
+        	</div>
+        	<div class="CH_middle">
+        		<img src="m-hongya2.jpeg" style="width: 100%; height: 173px;"/>
+        		<img src="332.jpg" style="width: 100%; height: 173px;"/>
+        	</div>
+        	<div class="CH_right">
+        		<p>
+        			重庆交通大学创建于1951年，是一所具有博士、硕士、学士学位授予权，以工为主，工、管、理、经、文、法等学科协调发展的多科性大学。
+        		</p>
+        		<p>
+        			1951年11月，邓小平领导的西南军政委员会为建设大西南，创建了重庆交通大学的前身--西南交通专科学校;时任西南军政委员会交通部部长、川藏公路筑路指挥部政委的穰明德任首任校长。2006年，学校新增为博士学位授予单位，并更名为重庆交通大学。
+        		</p>
+        		<p>
+        			学校由南岸校区、双福校区及大坪分部(重庆西南水运工程科学研究所)组成。学校占地面积3120亩(2080070平方米)，校舍建筑面积72万多平方米，其中教学行政用房42万平方米，学生宿舍19万余平方米;现有教学科研仪器设备14000余台(套)。
+        		</p>
+        		
+        	</div>
+        </div>
+        <!--特色美食-->
+        <div class="food"><br>
+        	<h3>家乡</h3>
+        	<a style="direction: down;float: left; color: greenyellow; font-weight: bold;">重庆云阳</a>
+        	<a style=" margin-left: 90%; display: block; float: left; color: greenyellow; font-weight: bold;">>></a>
+        	<div class="CH_left">
+        		<img src="huog1.jpg" style="width: 100%; height: 350px;" />       		
+        	</div>
+        	<div class="CH_middle">
+        		<img src="huog2.JPEG" style="width: 100%; height: 173px;"/>
+        		<img src="huog3.jpg" style="width: 100%; height: 173px;"/>
+        	</div>
+        	<div class="CH_right">
+        		<p>
+        			云阳县位于长江上游地区、重庆东北部，距重庆主城九区310公里，是三峡库区生态经济区沿江经济走廊承东启西、南引北联的重要枢纽。
+        		</p>
+        
+        		<p>
+        			云阳县东与奉节县相连，西与万州区相接，南与湖北省恩施州利川市相邻，北与开县、巫溪县为界。县境南北长99.5公里，东西宽70.2公里，总面积3649平方公里。截止到2012年底，云阳县辖29个镇、9个乡、4个街道，总人口134.46万人。
+        		</p>
+        		<p>云阳县列入《全国文物分布图》的古建筑、古遗址、古墓葬、石刻造像等文物145处，其中:国家级文物保护单位1处，省级保护单位3处，县级文物保护单位16处，名列长江三峡库区各县之首。</p>
+        		
+        	</div>
+        </div>
+        <!--人文精神-->
+        <div class="spirit">
+        	<h3>理想</h3>
+        	<a style="direction: down;float: left; color: greenyellow; font-weight: bold;">成为一名优秀的男人</a><br />
+        	<a style=" margin-left: 90%; display: block; float: left; color: greenyellow; font-weight: bold;"></a>
+        	<div class="SP_left">
+        		<img src="cqthese.jpg" style="width: 100%; height: 173px;" />  
+        		<img src="cqbangb2.jpg" style="width: 100%; height: 173px;" />   
+        	</div>
+        	<div class="SP_middle">
+        		<p>
+        			&nbsp;&nbsp;我的理想就是成为一名优秀的***，正在奋斗阶段，不便透漏，但是我相信自己，相信时光不会辜负努力的人。
+        		</p>       		
+        		<p>
+        			&nbsp;&nbsp;还有就是现实的目标包括豪车，钞票。当然我年轻人不应看重金钱，但是金钱可以衡量一个人的努力程度，金钱是对一个奋斗的奖励。下面是我的座右铭愿与诸君分享：
+        		</p>      		
+        		<p>
+        			&nbsp;&nbsp;&nbsp;&nbsp;有志者事竟成，破釜沉舟，百二秦关终属楚；苦心人天不负，卧薪偿胆，三千越甲可吞吴。
+        		</p>
+        	</div>
+        	<div class="SP_right">
+        		<img src="a.jpg" style="width: 49%; height: 100%; float: left;" />  
+        		<img src="2323.jpg" style="width: 49%; height: 100%; float: left; margin-left: 3px;" />   
+        		
+        	</div>
+        </div>
+        <div class="tail">
+        	<div class="T_left">
+        	<img src="111.jpg" style="width: 180px; height: 180px; margin-top: 25px; margin-left: 150px;" />
+        	<p style="margin-left: 150px; font-size: 18px; margin-top: 0px; color: white;">我情侣头像是不是可爱</p><br />
+        	</div>
+        	<div class="T_right" align="center">
+        		<a style="font-size: 40px;"">
+        			欢 迎 下 次 光 临&nbsp;
+        		</a>
+        		
+        		<br/>
+        		<p>
+        			谭荐文 webGIS实验
+        		</p>
+        		<p>
+        			我的QQ:497634715 tel：156XXXXXXXXXX Email：gklknk@163.com
+        		</p>
+        	</div>
+        </div>
+        
+	</body>
+
+</html>
